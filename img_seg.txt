@@ -1,0 +1,54 @@
+-Menu Bar
+	-File
+		-Open
+		-Save
+		-Exit
+	-Edit
+		-Cut
+		-Copy
+		-Undo
+		-Revert All
+	-Image
+		-Mode
+			-Bitmap
+			-RGB
+			-Grayscale
+			-CMYK
+	-Tools
+		-Separate Colours
+		-Find Repeat
+
+----------------------------------------------------------------
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|          IMAGE           |        All Other Options          |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+|                          |                                   |
+----------------------------------------------------------------
+
+
+-Image Preview
+	- Options to preview the image in a given format.
+-Color Detection
+	- Detect colour of the given pixel
+-Segmentation
+	- Show separate images for each colour segment.
+-Find Repeat
+	- Find the repeated pattern in the cloth.
+-Merge Two Images
+	- Tolerance (What amount of differece in the pixel values can be tolerated).
+	- To check if the merged images are perfect matches or not.
