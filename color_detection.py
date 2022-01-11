@@ -1,3 +1,7 @@
+"""
+Use Classes and objects to convert this code into OOPs code.
+"""
+
 import cv2
 import pandas as pd
 from colormap import rgb2hex
@@ -81,13 +85,25 @@ while(1): # infinite loop
         acc = "{:.2f}".format(accuracy)
         #print(acc)
         text1 = cf + " R=" + str(r) + " G="+ str(g) + " B=" + str(b) + " " + str(rgb2hex(r, g, b)) + " " + acc + "%"
-        if(r + g + b >= 500):
-            cv2.putText(img, text1, (210, 45), 2, 0.6, (0, 0, 0), 1, cv2.LINE_AA)
-        else:
-            cv2.putText(img, text1, (210, 45), 2, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
+        # if(r + g + b >= 500):
+        #     cv2.putText(img, text1, (210, 45), 2, 0.6, (0, 0, 0), 1, cv2.LINE_AA)
+        # else:
+        #     cv2.putText(img, text1, (210, 45), 2, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
 
+        """
+        Working of the code abpve:
+        text1 is a string that contains the color name of the pixel along with its rgb values.
+        It also has an accuracy factor (acc).
 
+        TODO: Manage this while statement to make it available to the main.py
+
+        """
+        
         clicked = False
+
+ 
+
+        
 
     if cv2.waitKey(20) & 0xFF == 27:
         break
